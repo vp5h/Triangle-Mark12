@@ -26,6 +26,7 @@ export default function CalcArea() {
 
     return (
         <div>
+             <h3>Calculate Area</h3>
             <input onChange={baseInputhandler} placeholder="Base"></input>
             <input onChange={HeightInputhandler} placeholder="Height"></input>
             <br></br>

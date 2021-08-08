@@ -61,15 +61,10 @@ export default function App() {
        <button onClick={AreaDispHandler}>Area</button>
        <button onClick={SideDispHandler}>Side Quiz</button>
        <button onClick={AngleQDispHandler}>Angle Quiz</button>
-
+      <br></br>
+      <br></br>
       {displayAdiv()}
-      {/*       
-      <TriangleCalcHandler/>
-     <ThirdsideCalc/>
-    <SideQuiz/>
-    <Anglequiz/>
-    <HypoCalc/>
-    <CalcArea/> */}
+      
     </div>
   );
   }

@@ -6,6 +6,7 @@ import ThirdsideCalc from "./components/ThirdsideCalc";
 import SideQuiz from "./components/SideQuiz"; 
 import Anglequiz from "./components/AngleQuiz"
 import HypoCalc from "./components/HypoCalc";
+import CalcArea from "./components/CalcArea";
 
 
 export default function App() {
@@ -17,12 +18,13 @@ export default function App() {
   return (
     <div className="App">
 
-      
-      {/* <TriangleCalcHandler/>
+{/*       
+      <TriangleCalcHandler/>
      <ThirdsideCalc/>
     <SideQuiz/>
-    <Anglequiz/> */}
-    <HypoCalc/>
+    <Anglequiz/>
+    <HypoCalc/> */}
+    <CalcArea/>
     </div>
   );
   }

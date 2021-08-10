@@ -49,6 +49,7 @@ function TriangleCalcHandler(){
       }
       return(
         <div className="TriangleSidesChecker">
+          <h2>Enter The Angles and Check Them</h2>
         <input type="number" onChange={angleOneHandler} placeholder="Angle One"></input>
         <input type="number" onChange={angleTwoHandler} placeholder="Angle Two"></input>
         <input type="number" onChange={angleThreeHandler} placeholder="Angle Three"></input>

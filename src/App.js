@@ -7,6 +7,10 @@ import SideQuiz from "./components/SideQuiz";
 import Anglequiz from "./components/AngleQuiz"
 import HypoCalc from "./components/HypoCalc";
 import CalcArea from "./components/CalcArea";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+
 
 
 export default function App() {
@@ -53,18 +57,47 @@ export default function App() {
   return (
     <div className="App">
 
-      <h2> Fun Time with Triangles</h2>
-      
+      <h1> Fun Time with Triangles</h1>
+      <div>
        <button onClick={AngleDispHandler}>Angle</button>
-       <button onClick={ThirdDispHandler}>Third Angle</button>
-       <button onClick={HypoDispHandler}>Hypotenuse </button>
-       <button onClick={AreaDispHandler}>Area</button>
+       <button onClick={ThirdDispHandler}>Third</button>
+       <button onClick={HypoDispHandler}>Hypotenuse</button>
+       </div>
+       <button onClick={AreaDispHandler}>Area Calc</button>
        <button onClick={SideDispHandler}>Side Quiz</button>
        <button onClick={AngleQDispHandler}>Angle Quiz</button>
       <br></br>
       <br></br>
+      <div className="div-display">
       {displayAdiv()}
-      
-    </div>
+      </div>
+    
+    <FontAwesomeIcon icon={["fab", "github"]} />
+    
+<footer className="footer">
+
+
+
+<div className="footer-header">Socials</div>
+<ul className="social-links list-non-bullet">
+    <li className="list-item-inline">
+        <a className="link" href="https://github.com/vp5h">
+        <FontAwesomeIcon icon={faGithub} />
+        </a>
+    </li>
+    <li className="list-item-inline">
+        <a className="link" href="https://twitter.com/v_p5h">
+        <FontAwesomeIcon icon={faTwitter} />
+        </a>
+    </li>
+    <li className="list-item-inline">
+        <a className="link" href="https://www.linkedin.com/in/vp5h/">
+        <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+    </li>
+    
+</ul>
+</footer>
+</div>
   );
   }

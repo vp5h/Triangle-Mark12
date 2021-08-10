@@ -61,9 +61,9 @@ export default function SideQuiz() {
       {randomSideGenerator}
       <div >
         <span>{firstSide} Units</span>
-        <br></br>
+        
         <span>{secondSide} Units</span>
-        <br></br>
+        
         <span>{thirdSide} Units</span>
       </div>
 

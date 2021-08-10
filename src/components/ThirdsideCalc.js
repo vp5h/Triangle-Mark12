@@ -60,6 +60,8 @@ const angleGen=(event)=>{
     
     randomAngleGenerator()
     setThirdAngle("")
+    setMes("")
+    setdiff("")
     // ThirdAngleCheck()
 }
 

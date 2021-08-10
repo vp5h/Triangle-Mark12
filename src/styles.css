@@ -7,27 +7,34 @@
  
 }
 .App {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: #F3F4F6;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   margin: 0px;
   color: #F3F4F6;
   background-color: #1f1f1f;
+  margin: auto;
+  max-width: 550px;
 }
 button{
 background-color: #10b96a;
-border-radius: 0.6rem;
+border-radius: 0.5rem;
 padding: 1rem;
+font-size: larger;
 margin: 0rem;
-margin-top: 2rem;
+margin-top: 0.1rem;
+margin-left: 0.1rem;
+color: #F3F4F6;
+width: 9rem;
 }
 input{
-  background-color: #52525281;
-  border-radius: 0.6rem;
+  background-color: #ffff;
+  border-radius: 0.5rem;
   padding: 1rem;
-  
+ 
 
 }
 
@@ -60,3 +67,90 @@ input{
   font-size: 2.5rem;
 }
 
+.div-display{
+  background-color: var(--dark-gray);
+  border-radius: 2rem;
+  padding: 1rem 1rem;
+
+ }
+ 
+ .div-display input{
+    background-color: #ffff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin: 1rem;
+  width:auto;
+  }
+  
+  .div-display label{
+    margin: 00.3rem;
+    padding: 1rem;
+  }
+  .div-display Span{
+    margin: 0.3rem;
+    padding: 0.5rem;
+    display: inline;
+    background-color: #1f1f1f;
+    border-radius: 0.2rem;
+  }
+
+  .footer {
+  
+    padding: 4rem 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+@media only screen and (max-width: 520px) {
+ 
+  button{
+    background-color: #10b96a;
+    border-radius: 0.5rem;
+   
+    
+    margin: 1rem;
+    margin-top: 0.1rem;
+    margin-left: 30vw;
+    color: #F3F4F6;
+    display: block;
+    
+    width: 10rem;
+    }
+    .div-display button{
+      
+        background-color: #10b96a;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        font-size: larger;
+        margin: 0rem;
+        margin-top: 0.1rem;
+        margin-left: 0.1rem;
+        color: #F3F4F6;
+       display: inline;
+        
+    }
+  
+}

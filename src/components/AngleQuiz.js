@@ -61,9 +61,9 @@ export default function AngleQuiz() {
       {randomAngleGenerator}
       <div >
         <span>{firstAngle}°</span>
-        <br></br>
+        
         <span>{secondAngle}°</span>
-        <br></br>
+        
         <span>{thirdAngle}°</span>
       </div>
 
